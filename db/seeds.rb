@@ -8,6 +8,10 @@
 
 # duties = ["Lab Assistant", "Course Assistant"]
 
+Course.destroy_all
+Lab.destroy_all
+Assistatn.destroy_all
+
 duty_types = ["Lab", "Course"]
 
 20.times do 
