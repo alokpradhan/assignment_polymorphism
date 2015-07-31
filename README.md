@@ -10,17 +10,13 @@ Polymorphic relationship
 
 A comment can be for many things - photo, blog post, profile
 
-A dish can be used for many things
-
-
-
 Course
-id   |   type         |   building  |  title    |  class_capacity
-int  |   string (TA)  |    string   |  string   |     int
+id   |  building  |  title    |  class_capacity
+int  |   string   |  string   |     int
 
 Lab 
-id   |   type        |  building  |  lab_capacity
-int  |   string(LA)  |    string  |    int
+id   |  building  |  lab_capacity
+int  |    string  |    int
 
 Assistant (TA)
 ID   |   DutyID  |  DutyType |  first_name | last_name 
